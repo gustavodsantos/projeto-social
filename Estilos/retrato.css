@@ -41,6 +41,9 @@ main {
     left: 50%;
     transform: translate(-50%);
 }
+#botoes > div {
+    display: inline;
+}
 #botoes a img {
     width: 50px;
     margin: 2px;

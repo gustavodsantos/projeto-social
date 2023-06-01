@@ -36,10 +36,18 @@ main {
     width: 233px;
 }
 #botoes {
-    min-width: 50px;
+    background-color: aquamarine;
+    width: 100vw;
     position: absolute;
-    left: auto;
-    transform: translate(25%);
+}
+#botoes > .um {
+    position: absolute;
+    
+}
+#botoes > .dois {
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%);
 }
 #botoes a img {
     display: block;
